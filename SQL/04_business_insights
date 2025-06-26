@@ -1,0 +1,12 @@
+SELECT
+  Segment,
+  ROUND(SUM(Sales), 2) AS total_sales,
+  ROUND(SUM(Profit), 2) AS total_profit,
+  COUNT(DISTINCT Customer_ID) AS unique_customers,
+  ROUND(SUM(Profit) / SUM(Sales), 4) AS profit_margin
+FROM
+  `nomadic-hash-463314-f3.superstore.order`
+GROUP BY
+  Segment
+ORDER BY
+  total_profit DESC;
