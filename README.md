@@ -39,14 +39,14 @@ This project analyzes sales and profitability trends in the Global Superstore da
 
 ### 🔹 Insight 1: Technology Dominates Sales, But Not Margins
 - **Technology** leads in sales (~$4.7M) and profit (~$663K).
-- **Office Supplies** offers better profit efficiency (~$518K profit on lower sales).
+- **Office Supplies** offers better profit efficiency (~3.7 M) and profit (~$518)
 
 🎯 *Recommendation:* Optimize pricing and focus on high-margin Office Supply products.
 
 ---
 
 ### 🔹 Insight 2: Top Products Are Concentrated in Tech & Furniture
-- The most profitable product is the **Canon imageCLASS Copier** ($25K+).
+- The most profitable product is the **Canon imageCLASS Copier** ($25K+) in profit.
 - Top products mostly belong to **Technology** and **Furniture**, indicating these are high-value categories.
 
 🎯 *Recommendation:* Bundle and promote these best-selling items to drive strategic growth.
