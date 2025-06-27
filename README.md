@@ -1,6 +1,5 @@
 # Global-Superstore-SQL-Analysis
 
-# 📊 Global Superstore SQL Analysis
 
 This project analyzes sales and profitability trends in the Global Superstore dataset using SQL on Google BigQuery. The goal is to uncover actionable business insights that can drive revenue, optimize pricing, and improve regional and customer segment performance.
 
