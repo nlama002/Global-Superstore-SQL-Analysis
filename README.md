@@ -39,7 +39,7 @@ This project analyzes sales and profitability trends in the Global Superstore da
 
 ### 🔹 Insight 1: Technology Dominates Sales, But Not Margins
 - **Technology** leads in sales ($4.7M) and profit ($663K).
-- **Office Supplies** offers better profit efficiency (3.7 M) and profit ($518)
+- **Office Supplies** offers better profit efficiency ($3.7M) and profit ($518K)
 
 🎯 *Recommendation:* Optimize pricing and focus on high-margin Office Supply products.
 
