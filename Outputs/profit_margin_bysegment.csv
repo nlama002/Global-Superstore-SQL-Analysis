@@ -1,0 +1,4 @@
+Segment,total_sales,total_profit,unique_customers,profit_margin
+Consumer,6508141.0,749239.78,2509,0.1151
+Corporate,3824808.0,441208.33,1457,0.1154
+Home Office,2309956.0,277009.18,907,0.1199
