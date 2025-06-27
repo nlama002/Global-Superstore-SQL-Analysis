@@ -32,28 +32,53 @@ This project analyzes sales and profitability trends in the Global Superstore da
 
 ---
 
-## 🔍 Key Insights
-
-### 🔹 Insight 1: High Discount, Low Profit Products
-> Identified products with avg discounts > 30% but negative profit. These may be over-discounted or priced below cost. Recommending pricing review and supplier cost evaluation.
-
-### 🔹 Insight 2: High Sales, Negative Profit Products
-> Several products (e.g., Motorola Smart Phone - Cordless) generate high sales but still operate at a loss. These may be loss leaders, overly discounted, or affected by high returns or logistics costs.
-
-### 🔹 Insight 3: Regional Performance
-> Central region leads in both sales and profit. However, North and North Asia regions demonstrate high profitability per dollar sold — ideal for margin-focused expansion.
-
-### 🔹 Insight 4: Segment-Level Profitability
-> Consumer segment leads in volume, but Home Office segment shows the highest profit margin (~12%). Suggests potential for targeted growth in this efficient segment.
 
 ---
 
-## 📈 Sample Query Snippets
+## 🧠 Key Insights
 
-```sql
--- Top 10 products with high discounts but negative profit
-SELECT Product_Name, AVG(Discount), SUM(Profit)
-FROM `...`
-GROUP BY Product_Name
-HAVING AVG(Discount) > 0.3 AND SUM(Profit) < 0
-ORDER BY AVG(Discount) DESC
+### 🔹 Insight 1: Technology Dominates Sales, But Not Margins
+- **Technology** leads in sales (~$4.7M) and profit (~$663K).
+- **Office Supplies** offers better profit efficiency (~$518K profit on lower sales).
+
+🎯 *Recommendation:* Optimize pricing and focus on high-margin Office Supply products.
+
+---
+
+### 🔹 Insight 2: Top Products Are Concentrated in Tech & Furniture
+- The most profitable product is the **Canon imageCLASS Copier** ($25K+).
+- Top products mostly belong to **Technology** and **Furniture**, indicating these are high-value categories.
+
+🎯 *Recommendation:* Bundle and promote these best-selling items to drive strategic growth.
+
+---
+
+### 🔹 Insight 3: Region & Segment Combinations Drive Opportunity
+- **Central - Consumer** is the highest performing pair (~$1.48M sales, $150K profit).
+- **North and South** also show strong performance in Consumer sales.
+
+🎯 *Recommendation:* Double down on Consumer campaigns in high-growth regions with tailored offerings.
+
+---
+
+### 🔹 Insight 4: Home Office Has Best Profit Margin
+| Segment        | Profit Margin | Unique Customers |
+|----------------|---------------|------------------|
+| Home Office    | **11.99%**    | 907              |
+| Corporate      | 11.54%        | 1457             |
+| Consumer       | 11.51%        | 2509             |
+
+- Despite the fewest customers, **Home Office** earns the most per dollar sold.
+
+🎯 *Recommendation:* Explore premium services or exclusive deals for Home Office users.
+
+
+## 📌 Purpose
+
+This analysis is part of my data analytics portfolio, designed to demonstrate my ability to:
+- Work with large datasets in the cloud (BigQuery)
+- Write complex SQL queries (window functions, CTEs, aggregation)
+- Translate raw data into business decisions and recommendations
+- Tell a compelling data-driven story
+
+---
