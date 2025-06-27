@@ -1,0 +1,40 @@
+Region,Segment,total_sales
+Central,Consumer,1480033
+Central,Corporate,850405
+South,Consumer,824915
+North,Consumer,643976
+Oceania,Consumer,579564
+South,Corporate,496029
+Central,Home Office,491961
+Southeast Asia,Consumer,460754
+Africa,Consumer,423751
+North Asia,Consumer,407410
+EMEA,Consumer,406763
+North,Corporate,394220
+Central Asia,Consumer,369052
+West,Consumer,362908
+East,Consumer,350947
+Oceania,Corporate,322831
+South,Home Office,280016
+North Asia,Corporate,265762
+Southeast Asia,Corporate,254356
+EMEA,Corporate,250559
+Central Asia,Corporate,235552
+West,Corporate,225870
+North,Home Office,209996
+Africa,Corporate,204948
+East,Corporate,200422
+Oceania,Home Office,197812
+North Asia,Home Office,175177
+Southeast Asia,Home Office,169328
+Caribbean,Consumer,162351
+Africa,Home Office,155077
+EMEA,Home Office,148862
+Central Asia,Home Office,148235
+West,Home Office,136736
+East,Home Office,127465
+Caribbean,Corporate,104535
+Caribbean,Home Office,57395
+Canada,Consumer,35717
+Canada,Corporate,19319
+Canada,Home Office,11896
